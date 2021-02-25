@@ -14,7 +14,7 @@ public class Gravitacija {
 
         double pospesek = (6.674 * Math.pow(10, -11) * 5.972 * Math.pow(10, 24))/
         Math.pow((6.371 * Math.pow(10, 6) + nadmorska * 1000), 2);
-        System.out.println(pospesek);
+        System.out.printf("%.2d m%n", pospesek);
     }
 	
 	public static void izpis(double v) {
