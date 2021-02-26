@@ -7,6 +7,16 @@ public class Gravitacija {
         izpisiGravitacijskiPospesek();
     }
 
+    public static double izracunGravitacjskegaPospeska(double v){
+            double C = 6.674e-11;
+            double M = 5.972e24;
+            double r = 6.371e6;
+            return (C * M) / (Math.pow(r + v, 2.0));
+
+            // v = spremenljivka nadmorkse visine
+        }
+
+
     private static void izpisiGravitacijskiPospesek(){
         Scanner sc = new Scanner(System.in);
 
