@@ -28,7 +28,7 @@ public class Gravitacija {
     }
 	
 	public static void izpis(double v) {
-		double a = izracun(v);
+		double a = izracunGravitacjskegaPospeska(v);
 		System.out.printf("Nadmorska višina: %.2f m, gravitacijski pospešek: %.2f m/s^2.%n", v, a);
 	}
 }
